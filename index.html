@@ -1,0 +1,485 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/meucss.css">
+    <title></title>
+  </head>
+  <body>
+    <!--menu início-->
+    <nav class="nav navbar-inverse">
+      <div class="container">
+        <!--cabeçalho do menu - Nome da empresa - logotipo -->
+        <div class="navbar-header">
+          <button type="button" id="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuprincipal" aria-expanded="false">
+            <span class="sr-only">Menu Principal</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand"><img class="foto" src="image/unity1.png" alt="unity"></a>
+        </div>
+        <!--fIM do cabeçalho do menu - Nome da empresa - logotipo -->
+
+        <!--Opções do menu  -->
+        <div class="collapse navbar-collapse" id="menuprincipal">
+          <ul class="nav navbar-nav">
+            <li><a href="#plataformas" class="meu">Plataformas</a></li>
+            <li><a href="#lancamentos" class="meu">Lançamentos</a></li>
+            <li><a href="#videos" class="meu">Videos</a></li>
+            <li><a href="#prevenda" class="meu">Pré-venda</a></li>
+            <li><a href="#descontos" class="meu">Descontos</a></li>
+            <li><a href="#consoles" class="meu">Consoles</a></li>
+            <li><a href="#politica" class="meu">Política de troca</a></li>
+          </ul>
+
+
+
+          <!--Aqui vem o Modal -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <!--janela modal -->
+                <a href="#modal1" class="" data-toggle="modal">Login</a>
+
+                <div class="modal fade" id="modal1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title">Faça seu login</h2>
+                      </div> <br>
+                      <div class="col-lg-6">
+                      <div class="input-group" >
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                        <input type="email" id="name" class="form-control" placeholder="Seu Email..." required>
+                      </div>
+                    </div>
+
+                      <div class="input-group" >
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input type="password" id="name" class="form-control" placeholder="Sua Senha..." required>
+                      </div><br>
+
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-danger">Cadastre-se</button>
+                        <button type="submit" class="btn btn-sm btn-success">Entrar</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              <!--fim da janela modal -->
+            </li>
+          </ul>
+        </div>
+        <!--Fim das Opções do menu  -->
+      </div>
+    </nav>
+
+    <!--fim do menu -->
+    <div class="container"><br>
+      <!--menu fim-->
+
+      <!--Carousel inicio-->
+      <div class="row">
+        <section id="plataformas">
+
+          <!--id como nome do carousel -->
+          <div id="carousel-empresa" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!--cada imagem deve ter um li específico, 10 imagens = 10 li´s -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-empresa" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-empresa" data-slide-to="1"></li>
+              <li data-target="#carousel-empresa" data-slide-to="2"></li>
+              <li data-target="#carousel-empresa" data-slide-to="3"></li>
+              <li data-target="#carousel-empresa" data-slide-to="4"></li>
+              <li data-target="#carousel-empresa" data-slide-to="5"></li>
+            </ol>
+
+            <!-- IMAGENS DO CAROUSEL -->
+            <div class="carousel-inner" role="listbox">
+              <!--cada imagem deve estar na class item, ou seja, uma class por imagem-->
+              <div class="item active">
+                <!--posso linkar a imagem para algum lugar colocando <a> antes da imagem-->
+                <a href="#"><img src="image\banner01.jpg" alt="Imagem"></a>
+                <div class="carousel-caption"> <!--título e descrição da imagem -->
+                  <h3>Rainbow Six Siege</h3>
+                  <p>Jogo chega está com uma nova dlc, chamada Operation Blood Orchid, garanta ja o seu Rainbow six e começe a jogar no novo mapa do jogo !!!</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="#"><img src="image\banner02.jpg" alt="Imagem"></a>
+                <div class="carousel-caption">
+                  <h3>Horizon Zero Dawn</h3>
+                  <p>Horizon Zero Dawn é um jogo eletrônico RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment exclusivamente para o PlayStation 4</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="#"><img src="image\banner03.jpg" alt="Imagem"></a>
+                <div class="carousel-caption">
+                  <h3>Call Of Duty Word War 2</h3>
+                  <p>Call of Duty: World War II, também conhecido estilisticamente como Call of Duty: WWII, é um jogo eletrônico de tiro produzido pela empresa Sledgehammer Games e publicado pela Activision para PlayStation 4, Xbox One e Microsoft Windows.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="#"><img src="image\banner04.jpg" alt="Imagem"></a>
+                <div class="carousel-caption">
+                  <h3>FIFA 18</h3>
+                  <p>Fifa 18 chega no dia 29 de setembro, com versões para Xbox One, PlayStation 4, Nintendo Switch, PC, Xbox 360 e PlayStation 3.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="#"><img src="image\banner05.jpg" alt="Imagem"></a>
+                <div class="carousel-caption">
+                  <h3>Playerunknown's Battlegrounds</h3>
+                  <p>Playerunknown's Battlegrounds é um jogo de tiro de última man-standing sendo desenvolvido com feedback da comunidade. Os jogadores têm de lutar para localizar armas e suprimentos em uma ilha enorme 8x8 km a ser o único sobrevivente. Esta é Battle Royale.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="#"><img src="image\banner06.jpg" alt="Imagem"></a>
+                <div class="carousel-caption">
+                  <h3>Battlefield 1</h3>
+                  <p> In the Name of the Tsar é a nova expansão para prolongar a longevidade do título.Com muitas novas armas, mapas, veículos e outras novidades, a expansão ganhou um trailer bacana na apresentação da E3 2017. Nivelle Nights e outros sete mapas estarão na expansão, trazendo o maior lançamento de conteúdo até agora.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls - avançar e voltar na imagem anterior -->
+            <a class="left carousel-control" href="#carousel-empresa" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-empresa" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </section>
+      </div><br>
+      <!--Carousel fim-->
+
+
+
+      <!--jogos games -->
+      <div class="row">
+        <section id="lancamentos">
+        <legend class="prevenda">GAMES EM DESTAQUE</legend>
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+      <a href="#"><img src="image/jo1.jpg" alt="prevenda"></a>
+      <div class="caption">
+        <h3>Jogo Zelda BOTW - Nintendo Switch</h3>
+        <p class="valor">R$ 279,90</p>
+        <p class="vezes">4X R$69,97 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+        <a href="#"><img src="image/jo2.jpg" alt="prevenda"></a>
+          <div class="caption">
+            <h3>Jogo Battlefiel 1 - Xbox One</h3>
+            <p class="valor">R$149,90</p>
+            <p class="vezes">4X R$37,47 sem juros</p>
+            <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+          </div>
+      </div>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+        <a href="#"><img src="image/jo3.jpg" alt="prevenda"></a>
+        <div class="caption">
+          <h3>Jogo Horizon Zero Dawn - PS4</h3>
+          <p class="valor">R$ 249,90</p>
+          <p class="vezes">4X R$62,97 sem juros</p>
+          <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+      <a href="#"><img src="image/jo4.jpg" alt="prevenda"></a>
+      <div class="caption">
+        <h3>Jogo Playerunknown's Battlegrounds - PC</h3>
+        <p class="valor">R$ 55,99</p>
+        <p class="vezes">4X R$13,99 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+      </div>
+      </div>
+      </section>
+      </div> <br>
+
+      <!-- fim jogos prevenda -->
+
+      <!--Videos-->
+
+      <div class="row" class="videos">
+        <section id="videos">
+        <legend class="prevenda">VIDEOS</legend>
+  				<div class="elementos" >
+  					<iframe width="275" height="175" src="https://www.youtube.com/embed/Uv6OvwqEPGM" frameborder="0" allowfullscreen></iframe>
+  						<h4> Gameplay Horizon Zero Dawn - PS4 </h4>
+  				</div>
+  					<div class="elementos">
+  						<iframe width="275" height="175" src="https://www.youtube.com/embed/l1FJfr_spJQ" frameborder="0" allowfullscreen></iframe>
+  							<h4> Trailer Oficial FIFA 18 </h4>
+  					</div>
+  						<div class="elementos">
+  							<iframe width="275" height="175" src="https://www.youtube.com/embed/jGgNxN0rQYw" frameborder="0" allowfullscreen></iframe>
+  								<h4> Trailer Oficial PES 2018 </h4>
+  						</div>
+      </section>
+      </div> <br>
+
+
+      <!-- fim videos -->
+
+      <!--jogos prevenda -->
+
+
+
+      <div class="row">
+        <section id="prevenda">
+        <legend class="prevenda">PRÉ-VENDA</legend>
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+      <a href="#"><img src="image/lanca1.jpg" alt="prevenda"></a>
+      <div class="caption">
+        <h3>Jogo PES 2018 - PS3 - PRÉ-VENDA</h3>
+        <p class="valor">R$ 199,90</p>
+        <p class="vezes">4X R$49,97 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+        <a href="#"><img src="image/lanca2.jpg" alt="prevenda"></a>
+          <div class="caption">
+            <h3>Jogo FIFA 18 - PS4 - PRÉ-VENDA</h3>
+            <p class="valor">R$ 249,90</p>
+            <p class="vezes">4X R$62,97 sem juros</p>
+            <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+      <a href="#"><img src="image/lanca3.jpg" alt="prevenda"></a>
+        <div class="caption">
+          <h3>Jogo Destiny 2 - Xbox One - PRÉ-VENDA</h3>
+          <p class="valor">R$ 249,90</p>
+          <p class="vezes">4X R$62,97 sem juros</p>
+          <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+    <a href="#"><img src="image/lanca4.jpg" alt="prevenda"></a>
+      <div class="caption">
+        <h3>Jogo COD WW2 - Xbox One - PRÉ-VENDA</h3>
+        <p class="valor">R$ 199,90</p>
+        <p class="vezes">4X R$49,97 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+  </div>
+</div>
+      </section>
+    </div> <br>
+
+    <!-- fim jogos prevenda -->
+
+    <!--jogos com descontos -->
+    <div class="row">
+      <section id="descontos">
+      <legend class="prevenda">DESCONTOS</legend>
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+    <a href="#"><img src="image/jogo1.jpg" alt="desconto"></a>
+    <div class="caption">
+      <h3>Jogo Grand Theft Auto V - PS4 </h3>
+      <p class="valor">R$119,99</p>
+      <p class="vezes">4X R$29,99 sem juros</p>
+      <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+        <a href="#"><img src="image/jogo2.jpg" alt="desconto"></a>
+        <div class="caption">
+          <h3>Jogo Watch Dogs 2 - Xbox One</h3>
+          <p class="valor">R$ 99,90</p>
+          <p class="vezes">4X R$24,97 sem juros</p>
+          <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <a href="#"><img src="image/jogo3.jpg" alt="desconto"></a>
+      <div class="caption">
+        <h3>Jogo Rainbow Six Siege GOLD - Xbox One</h3>
+        <p class="valor">R$ 89,90</p>
+        <p class="vezes">4X R$22,47 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+  </div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+  <div class="thumbnail">
+    <a href="#"><img src="image/jogo4.jpg" alt="desconto"></a>
+    <div class="caption">
+      <h3>Jogo Ghost Recon Wildlands - PS4</h3>
+      <p class="valor">R$ 149,90</p>
+      <p class="vezes">4X R$37,47 sem juros</p>
+      <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+    </div>
+</div>
+</div>
+    </section>
+  </div><br>
+
+  <!-- fim jogos com descontos -->
+
+  <!--jogos consoles -->
+  <div class="row">
+    <section id="consoles">
+    <legend class="prevenda">CONSOLES</legend>
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+  <a href="#"><img src="image/console1.jpg" alt="desconto"></a>
+  <div class="caption">
+    <h3>Console PS4 Pro Bundle - 3 jogos</h3>
+    <p class="valor">R$119,99</p>
+    <p class="vezes">4X R$29,99 sem juros</p>
+    <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <a href="#"><img src="image/console2.jpg" alt="desconto"></a>
+      <div class="caption">
+        <h3>Console Xbox One Elite - 5 jogos</h3>
+        <p class="valor">R$ 99,90</p>
+        <p class="vezes">4X R$24,97 sem juros</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+      </div>
+  </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+  <div class="thumbnail">
+    <a href="#"><img src="image/console3.jpg" alt="desconto"></a>
+    <div class="caption">
+      <h3>Console Xbox One Bundle - Battlefiel 1</h3>
+      <p class="valor">R$ 89,90</p>
+      <p class="vezes">4X R$22,47 sem juros</p>
+      <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+  <div class="thumbnail">
+  <a href="#"><img src="image/console4.jpg" alt="desconto"></a>
+  <div class="caption">
+    <h3>Console Nintendo Switch - 3 jogos</h3>
+    <p class="valor">R$ 149,90</p>
+    <p class="vezes">4X R$37,47 sem juros</p>
+    <p><a href="#" class="btn btn-primary" role="button">Ver Detalhes</a></p>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+
+  <!-- fim consoles -->
+  <!--Accordion início-->
+  <div class=" row">
+    <div class="panel-group" id="paineis">
+
+      <!--PRIMEIRO ITEM DO ACORDION -->
+        <div class="panel panel-default"  id="politica">
+          <div class="panel-heading">
+            <h4 class="panel-title" data-toggle="collapse" data-target="#p1" data-parent="#paineis">
+              Política de troca
+            </h4>
+          </div>
+          <div id="p1" class="collapse in">
+            <div class="panel-body">
+              <p>
+                1. Condições Gerais <br>
+                Com objetivo de oferecer um bom atendimento a Unity Games tem procedimentos e política estabelecida para o processo de troca, devolução e suporte técnico. Entre em contato com a Unity Games através da central de atendimento pelo e-mail sac@unitygames.com informando o número do pedido ou número da Nota Fiscal de compra e o motivo da solicitação.
+                A Unity Games não aceita o recebimento de devoluções sem o aviso prévio e autorização da área de atendimento da UZ Games, sendo passivo o não aceite da devolução do(s) produto(s) no ato do recebimento, podendo reenviar sem consulta prévia ao cliente.
+
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--Accordion fim-->
+
+
+    </div>
+
+
+    <footer class="fundo-rodape">
+      <address>
+        <strong><img class="logo" src="image/unity1.png" alt="unity"></strong><br>
+        Loja Física : <br>
+          Av. Angélica 900 - Consolação <br>
+          CEP:01239-011 - São Paulo - SP <br>
+          Telefone: (55-11) 4002-8922 - 6672-3461 <br>
+          Email: sac@unitygames.com <br>
+        <a href="#"><img class="social" src="image/face.png" alt="face"></a>
+        <a href="#"><img class="social" src="image/tt.png" alt="face"></a>
+        <a href="#"><img class="social" src="image/insta.png" alt="face"></a>
+        <a href="#"><img class="social" src="image/tube.png" alt="face"></a>
+
+      </address>
+    </footer>
+    <!--fim do rodapé -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!--Aqui vem o JavaScript para os links -->
+    <script type="text/javascript">
+      var $doc = $('html,body');
+        $('.meu').click(function(){
+          $doc.animate({
+            scrollTop:$($.attr(this,'href')).offset().top
+          },500);
+          return false;
+        });
+
+    </script>
+
+  </body>
+</html>
